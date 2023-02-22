@@ -16,13 +16,12 @@
 
     <script>
         //Declaração de Variaveis
-        var n1 = parseInt(prompt("Digite o 1º Numero")) //N1 vai receber a informação do Prompt convertida em INT
+        var n1 = Number(prompt('Digite um numero: '));
+        var n2 = Number(prompt('Digite Outro Numero: '));
+        
+        var s = n1 + n2;
 
-        var n2 = parseInt(prompt("Digite o 2º Numero")) //N2 vai receber a informação do Prompt convertida em INT
-
-        var s = n1 + n2
-
-        alert ("A soma é " + s);
+        window.alert(`A soma entre ${n1} é ${n2} é ${s}`);
         
     </script>
 
