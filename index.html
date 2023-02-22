@@ -14,10 +14,11 @@
     <script>
         //Declaração de Variaveis
         var nome = prompt('Qual é seu nome?')
+        var sal = prompt(`Salario: `)
 
-        document.write(`<br> seu nome tem ${nome.length} letras`)
-
-        
+        document.write(`seu nome tem ${nome.length} letras`)
+        document.write(`<br> ${sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+                               sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
     </script>
 </body>
 </html>
