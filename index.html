@@ -6,19 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>Meu primeiro programa...</title>
+    <title>Operadores...</title>
 
 </head>
 
 <body>
     <script>
-        //Declaração de Variaveis
-        var nome = prompt('Qual é seu nome?')
-        var sal = prompt(`Salario: `)
+        /*
+        n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+         Esse comando serve para formatar um numero para um String em formato de uma moeda local
+         
+            n.toLocaleString(
+         Pegamos a Variavel n e convertemos para uma String baseada em Localidade
+            'pt-br', {Style: 'currency', currency: 'BRL'}
+         Aqui estamos dizendo o idioma da string, Português Brazil e definimos o estilo de saida com moeda (currency)
+         em seguida definimos o atributo currency com Real Brazileiro.
 
-        document.write(`seu nome tem ${nome.length} letras`)
-        document.write(`<br> ${sal}`)
-                               //sal.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+          O resultado é: R$ 0.000,0
+           R
+
+        */
+
+        //Declaração de Variaveis
+        var n1 = 5;
+        var n2 = 2;   
+
+        document.write(`A soma é ${n1 + n2} <br>`)
+        document.write(`A Subtração é ${n1 - n2} <br>`)
+        document.write(`A Multiplicação é ${n1 * n2} <br>`)
+        document.write(`A Divisão é ${n1 / n2} <br>`)
+        document.write(`O Modulo é ${n1 % n2} <br>`)
+        document.write(`A Potencia é ${n1 ** n2} <br>`)
+
     </script>
 </body>
 </html>
