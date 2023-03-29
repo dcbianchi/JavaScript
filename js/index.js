@@ -1,6 +1,7 @@
-var vel = 78
-console.log(`A velocidade do carro é ${vel}Km/h`)
-if (vel > 60 ) { //condição simples
-    console.log(`Você ultrapassou a velocidade permitida. Multado`)
+var pais = 'Brasil'
+console.log(`Vivendo em ${pais}`)
+if (pais == 'Brasil'){
+    console.log('Você é Brasileiro!')
+} else {
+    console.log(`Você é estranjeiro`)
 }
-console.log(`cuidado`)
