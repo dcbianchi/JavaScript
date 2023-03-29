@@ -22,7 +22,26 @@
 </head>
 
 <body>
-     <div id="area">Clique ni mim</div>
+     <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()">
+        Interaja...
+     </div>
+
+     <script>
+        var a = window.document.getElementById('area')
+        function clicar() {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
+
+        function entrar(){
+            a.innerText = 'Entrou!'
+        }
+
+        function saiu(){
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
+     </script>
 
 </body>
 </html>
