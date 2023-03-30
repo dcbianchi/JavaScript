@@ -1,12 +1,16 @@
-//Exercicios Modulo D
- function verificar() {
-     var txtv = window.document.getElementById('txtvel')
-     var res = window.document.getElementById('res')
-     var vel = Number(txtv.value)
+//A11e1
+var agora = new Date() //instanciando o valor de retorno da função Date() na variavel agora.
+var hora = agora.getHours()//recuperando hora local do sistema (getHours()) da instancia agora para a variavel hora
 
-     res.innerHTML = `Sua velocidade atual é de <strong>${vel}KM/h </strong>`
-     if (vel > 60) {
-         res.innerHTML += `<p> Você foi multado</p>`
-     }
-     res.innerHTML += '<p> Dirija sempre com o cinto de segurança</p>'
- }
+
+//O ID do paragrafo é time
+//O ID da imagem é imgCenterPage
+
+if (hora < 12) {
+    time.querySelector(time) = `Agora são ${hora}`
+    .querySelector(imgCenterPage)
+} else if (hora < 18) {
+
+} else (hora < 23) {
+
+}
