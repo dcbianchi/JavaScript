@@ -6,8 +6,10 @@ body {
     align-items: center;
     }
 
+/*
 #head {
 }
+*/
 
 #content {
     margin: auto;
@@ -18,7 +20,7 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
 }
 
-#time {
+#pHora {
     font: normal 14pt helvetica;
     color: black;
 }
@@ -30,5 +32,6 @@ body {
 }
 
 #footer {
+    margin-top: 10px;
     font: italic 10pt times;   
 }
