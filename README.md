@@ -11,3 +11,7 @@
          em seguida definimos o atributo currency com Real Brazileiro.
 
           O resultado é: R$ 0.000,00
+
+ Para usar a hora do sistema use: Date() e GetHours()
+ var agora = new Date()
+var hora = agora.getHours()
