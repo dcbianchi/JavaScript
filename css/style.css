@@ -13,9 +13,9 @@ body {
     margin: auto;
     padding: 10px;
     background: white;
-    width: 350px;
+    width: 500px;
     border-radius: 15px;
-    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
 }
 
 #time {
@@ -30,5 +30,5 @@ body {
 }
 
 #footer {
-    font: normal 10pt times;
+    font: italic 10pt times;   
 }
