@@ -10,13 +10,14 @@
         //Bom dia
         msg.innerHTML = `Bom dia, agora são ${hora} hs`
         foto.src = `img/sunrise.jpg`
-        document.body.style.background = '#e2cd2f'
+        document.body.style.background = '#e4bc7f'
     } else if (hora >= 12 && hora <= 18) {
         msg.innerHTML = `Boa tarde, agora são ${hora} hs`
         foto.src = `img/sunset.jpg`
-        document.body.style.background = '#e2cd2f'
+        document.body.style.background = '#b97029'
     } else {
         msg.innerHTML = `Boa noite, agora são ${hora} hs`
         foto.src = `img/night.jpg`
+        document.body.style.background = '#2b526f'
     }
  }
