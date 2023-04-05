@@ -1,9 +1,14 @@
  function verificar() {
-    var data = new Date() //Instanciando Data na Variavel Agora
+    var data = new Date()
     var ano = data.getFullYear()
     var fano = document.getElementById('txtano')
-    var res = document.quereySelector('div#res')
+    var res = document.querySelector('div#res')
 
-    window.alert ('verifique os dados e tente novamente')
-   
+
+    if (fano.value.length == 0 || Number(fano > ano)) {
+        window.alert (`Erro - Ano Zero`)
+    } else {
+        window.alert (`Deu certo`)
+    }
+    
  }

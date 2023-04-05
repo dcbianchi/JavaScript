@@ -26,10 +26,6 @@ body {
     width: 200px;
 }
 
-#res {
-    display: hidden;
-}
-
 #footer {
     margin-top: 10px;
     font: italic 10pt times;   
