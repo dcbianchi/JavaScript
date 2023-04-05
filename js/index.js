@@ -1,7 +1,7 @@
- //Exercicios do Modulo D
+ //Exercicios do Modulo 
  function carregar(){
-    var agora = new Date() //Instanciando Data na Variavel Agora
-    var hora = agora.getHours() //capturando a hora do sistema pelo retorno da função getHours do objeto Agora
+    var data = new Date() //Instanciando Data na Variavel Agora
+    var hora = data.getHours() //capturando a hora do sistema pelo retorno da função getHours do objeto Agora
     var msg = document.getElementById('pHora')
     var foto = document.getElementById('imgCenterPage')
 
@@ -20,4 +20,14 @@
         foto.src = `img/night.jpg`
         document.body.style.background = '#2b526f'
     }
+ }
+
+ function verificar() {
+    var data = new Date() //Instanciando Data na Variavel Agora
+    var ano = data.getFullYear()
+    var fano = document.getElementById('txtano')
+    var res = document.quereySelector('div#res')
+
+    window.alert ('verifique os dados e tente novamente')
+   
  }

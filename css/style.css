@@ -13,10 +13,9 @@ body {
     width: 500px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
-    color: black;
 }
 
-#pHora,  {
+#pHora, .texto {
     font: normal 14pt helvetica;
     color: black;
 }
@@ -25,6 +24,10 @@ body {
     border-radius: 50%;
     height: 200px;
     width: 200px;
+}
+
+#res {
+    display: hidden;
 }
 
 #footer {

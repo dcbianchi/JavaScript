@@ -10,21 +10,39 @@
     <title>Verificado de Idade - Modulo D</title>
 </head>
 
-<body onload="carregar()">
+<body>
         <header id="head">
             <h3> Verificador de Idade </h3>
         </header>
 
         <section id="content">
-            <fieldset>
-                Ano de Nascimento: <input type="number" id="idade">
-                sexo: 
-            </fieldset>
+            <div>
+                <p class="texto">Ano de Nascimento: 
+                    <input type="number" id="txtano" min="0">
+                </p>
+                <p class="texto">Sexo:
+                    <input type="radio" name="radsex" id="mas" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Femininio</label>
+                </p>
+                <p class="texto">
+                    <input type="button" value="Verificar" onclick="verificar()">
+                </p>
+            <div>
+
+            <div id="res">
+                <p>
+
+                </p>
+                <img id="imgCenterPage" src="img/Baby.png">
+
+            </div>
         </section>
 
         <footer id="footer">
             ©Curso em Video - Por DcBianchi
         </footer>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/idade.js"></script>
 </body>
 </html>
