@@ -4,7 +4,12 @@ body {
     background-color: #2b526f;
     text-align: center;
     align-items: center;
+    color: Black;
     }
+
+header{
+    color: white;
+}
 
 #content {
     margin: auto;
