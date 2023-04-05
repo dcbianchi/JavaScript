@@ -6,11 +6,6 @@ body {
     align-items: center;
     }
 
-/*
-#head {
-}
-*/
-
 #content {
     margin: auto;
     padding: 10px;
@@ -18,9 +13,10 @@ body {
     width: 500px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    color: black;
 }
 
-#pHora {
+#pHora,  {
     font: normal 14pt helvetica;
     color: black;
 }
