@@ -7,29 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Modulo E - Super contador</title>
+    <title>Modulo E - Tabuada</title>
 </head>
 
 <body onload="" >
     <header id="head">
-        <h3> Vamos contar </h3>
+        <h3> Tabuada </h3>
     </header>
 
     <section id="content">
         <div id="dados" class="left">
-            <p> <laber for="inicio">Inicio:</laber>
-                <input type="number" name="inicio" id="txti">
+            <p> <laber for="inicio">Número:</laber>
+                <input type="number" name="numero" id="txtn">
+            <input type="button" name="contar" value="Calcular Tabuada" onclick="contar()">
             </p>
-            <p> <label for="final">Fim: </label>
-                <input type="number" name="final" id="txtf">
-            </p>
-            <p><label for="passo">Passo:</label>
-                <input type="number" name="passo" id="txtp">
-            </p>
-            <input type="button" name="contar" value="Contar" onclick="contar()">
         </div>
-        <div id="res">
-               Preparando para contar...
+        <div id="res" class="left">
+               <select id="txtt" size="10">
+                <option>digite um numero acima</option>
+
+
+               </select>
         </div>
     </section>
 
