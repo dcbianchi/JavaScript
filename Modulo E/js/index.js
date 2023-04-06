@@ -47,7 +47,7 @@ function tabuada() {
         let x = Number(numero.value);
         for(let c = 1; c<=10;c++){
             let r = x*c
-            txtt.innerHTML += `<option>${x} X ${c} = ${r}</option>`
+            txtt.innerHTML += `<option>${x} X ${c} = ${r}</option>     `
             console.log(`${x} X ${c} = ${r}`)
         }
     }
