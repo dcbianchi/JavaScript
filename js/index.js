@@ -2,24 +2,27 @@
 // Professor Gustavo Guanabara
 // Tema do modulo: Repetições em JavaScript
 
-for (var c=1; c<=10; c++) {
-    console.log(`For Passo ${c}`)
-}
+// Exercici 16 - Contagem
 
-var c = 1
-while (c <= 5) {
-    console.log(c)
-    c++
-}
 
-/*
-function comerPizza() {
-    while (temFatia) {
-        comerFatia()
+
+function contar(){
+    var ini = document.getElementById('sta')
+    var fim = document.getElementById('end')
+    var pass = document.getElementById('pass')
+    var contage = document.getElementById('contagem')
+    var txt = document.getElementById('txt')
+    if (ini == 0 || fim ==0 || pass == 0) {
+        txt.innerHTML = 'impossivel contar, verifique os dados'
+    } else if (inicio < fim) {
+        var c = pass
+        for(c; c >= fim; c++) {
+            console.log(`${c}`)
+        }
+    } else if (fim > inicio) {
+        var c = pass
+        for (c; fim >= c; c--){
+            console.log(`${c}`)
+        }
     }
 }
-
-funtion comerFatia() {
-    console.log('Comeu 1 Fatia')
-}
-*/

@@ -20,6 +20,10 @@ header{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
 }
 
+.left{
+    text-align: left;
+}
+
 #pHora, .texto {
     font: normal 14pt helvetica;
     color: black;
@@ -33,5 +37,6 @@ header{
 
 #footer {
     margin-top: 10px;
-    font: italic 10pt times;   
+    font: italic 10pt times; 
+    color: white;  
 }
