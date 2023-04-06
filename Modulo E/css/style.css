@@ -1,0 +1,42 @@
+body {
+    color: white;
+    font: normal 16pt arial;
+    background-color: #2b526f;
+    text-align: center;
+    align-items: center;
+    color: Black;
+    }
+
+header{
+    color: white;
+}
+
+#content {
+    margin: auto;
+    padding: 10px;
+    background: white;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+}
+
+.left{
+    text-align: left;
+}
+
+#pHora, .texto {
+    font: normal 14pt helvetica;
+    color: black;
+}
+
+#imgCenterPage {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+#footer {
+    margin-top: 10px;
+    font: italic 10pt times; 
+    color: white;  
+}
