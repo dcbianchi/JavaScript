@@ -38,3 +38,18 @@ function contar(){
 }
 
 // Exercicio 17 
+function tabuada() {
+    let numero = document.getElementById('txtn')
+    if (numero.value.length == 0) {
+        window.alert('Você precisa inserir um numero')
+    } else {
+        txtt.innerHTML = ""
+        let x = Number(numero.value);
+        for(let c = 1; c<=10;c++){
+            let r = x*c
+            txtt.innerHTML += `<option>${x} X ${c} = ${r}</option>`
+            console.log(`${x} X ${c} = ${r}`)
+        }
+    }
+}
+
