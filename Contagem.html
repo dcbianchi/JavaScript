@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Modulo E</title>
+    <title>Modulo E - Super contador</title>
 </head>
 
 <body onload="" >
@@ -16,20 +16,20 @@
     </header>
 
     <section id="content">
-        <div class="left">
+        <div id="dados" class="left">
             <p> <laber for="inicio">Inicio:</laber>
-                <input type="number" name="inicio" id="sta">
+                <input type="number" name="inicio" id="txti">
             </p>
             <p> <label for="final">Fim: </label>
-                <input type="number" name="final" id="end">
+                <input type="number" name="final" id="txtf">
             </p>
             <p><label for="passo">Passo:</label>
-                <input type="number" name="passo" id="pass">
+                <input type="number" name="passo" id="txtp">
             </p>
             <input type="button" name="contar" value="Contar" onclick="contar()">
         </div>
-        <div id="contagem">
-            <p id='txt'> Preparando para contar...</p>
+        <div id="res">
+               Preparando para contar...
         </div>
     </section>
 
